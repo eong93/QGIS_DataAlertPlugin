@@ -243,3 +243,27 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+
+#example {
+    background: red;
+    height: 0px;
+    overflow: hidden;
+    transition: height 2s;
+    -moz-transition: height 2s; /* Firefox 4 */
+    -webkit-transition: height 2s; /* Safari and Chrome */
+    -o-transition: height 2s; /* Opera */
+}
+
+a.showLink, a.hideLink {
+    text-decoration: none;
+    background: transparent url('down.gif') no-repeat left; 
+}
+
+a.hideLink {
+    background: transparent url('up.gif') no-repeat left; 
+}
+
+
+
