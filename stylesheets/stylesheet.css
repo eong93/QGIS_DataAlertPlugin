@@ -330,7 +330,7 @@ a {
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 }
 
-.ac-container input:checked ~ article.ac-small{
-	height: 140px;
+.ac-container input:checked ~ article.ac-large{
+	height: 230px;
 }
 
