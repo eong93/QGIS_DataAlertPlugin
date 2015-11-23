@@ -256,7 +256,7 @@ a {
 
 .ac-container label{
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	padding: 10px 20px;
+	padding: 3px 20px;
 	position: relative;
 	z-index: 20;
 	display: block;
@@ -334,6 +334,6 @@ a {
 }
 
 .ac-container input:checked ~ article.ac-small{
-	height: 140px;
+	height: 300px;
 }
 
